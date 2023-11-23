@@ -19,5 +19,5 @@ public class Owner {
     private String lastname,firstname;
     @JsonIgnore
     @OneToMany(cascade = CascadeType.ALL,mappedBy = "owner")
-    private List<Car> Cars;
+    private List<Car> cars;
 }
