@@ -18,5 +18,4 @@ public class Car {
     @ManyToOne
     @JoinColumn(name="owner")
     private Owner owner;
-
 }
